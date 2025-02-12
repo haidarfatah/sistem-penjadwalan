@@ -7,10 +7,15 @@ Link Data Base: https://drive.google.com/file/d/1cM566PFexv9JnB6xKSEyKV2wrq0ySk6
 
 Akun Sistem:
 1)	Admin
+   
     a.	Email: admin@sistem.com
+  	
     b.	Password: admin123
-2)	Karayawan:
+  	
+3)	Karayawan:
+   
     a.	Email: haidar@gmail.com
+  	
     b.	Password: 123456
 
 
