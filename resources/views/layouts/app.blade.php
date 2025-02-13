@@ -19,133 +19,132 @@
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 
     <style>
-    /* ====      NAVBAR ========= */
-    /* General Body and Container Styling */
-    body {
-        font-family: 'Arial', sans-serif;
-        background-color: #f8f9fa;
-        color: black;
-    }
+        /* ====      NAVBAR ========= */
+        /* General Body and Container Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: black;
+        }
 
-    /* Navbar Styling */
-    .navbar {
-        background: linear-gradient(45deg, #9ac5e5, #4fb19d);
-        padding: 15px 30px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-
-    .navbar-brand {
-        font-size: 24px;
-        font-weight: bold;
-        color: white;
-        transition: color 0.3s ease;
-    }
-
-    .navbar-brand:hover {
-        color: #88f4ff;
-    }
-
-    /* Navbar Menu Items */
-    .nav-item {
-        position: relative;
-    }
-
-    .nav-item a {
-        color: white;
-        font-size: 16px;
-        padding: 10px 15px;
-        margin: 0 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: background-color 0.3s, transform 0.3s;
-    }
-
-    .nav-item a:hover {
-        background-color: #edce7a;
-        transform: translateY(-5px);
-        border-radius: 5px;
-        color: black
-    }
-
-    /* Icon Hover Effect */
-    .nav-item a i {
-        margin-right: 8px;
-        transition: transform 0.3s;
-    }
-
-    .nav-item a:hover i {
-        transform: scale(1.1);
-    }
-
-    /* Hiding Text by Default */
-    .nav-item a span {
-        display: none;
-        position: absolute;
-        bottom: -25px;
-        font-size: 12px;
-        background-color: #625ad8;
-        color: white;
-        border-radius: 5px;
-        padding: 5px 10px;
-        opacity: 0;
-        transition: opacity 0.3s ease, bottom 0.3s ease;
-    }
-
-    /* Show Text When Hovering */
-    .nav-item a:hover span {
-        display: block;
-        opacity: 1;
-        bottom: -35px;
-    }
-
-    /* Dropdown Menu Styling */
-    .dropdown-menu {
-        background-color: #c98c9a;
-        border-radius: 5px;
-    }
-
-    .dropdown-item {
-        color: white;
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-    .dropdown-item:hover {
-        background-color: #e5c6c3;
-        color: #fff;
-    }
-
-    /* Search Button */
-    .search-btn {
-        background-color: #4fb19d;
-        border: none;
-        border-radius: 30px;
-        transition: background-color 0.3s;
-    }
-
-    .search-btn:hover {
-        background-color: #edce7a;
-    }
-
-    .search-btn i {
-        color:white;
-    }
-
-    /* Responsive Navbar */
-    @media (max-width: 768px) {
+        /* Navbar Styling */
         .navbar {
-            padding: 10px 20px;
+            background: linear-gradient(45deg, #9ac5e5, #4fb19d);
+            padding: 15px 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
         .navbar-brand {
-            font-size: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-brand:hover {
+            color: #88f4ff;
+        }
+
+        /* Navbar Menu Items */
+        .nav-item {
+            position: relative;
         }
 
         .nav-item a {
-            font-size: 14px;
+            color: white;
+            font-size: 16px;
+            padding: 10px 15px;
+            margin: 0 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s, transform 0.3s;
         }
-    }
 
+        .nav-item a:hover {
+            background-color: #edce7a;
+            transform: translateY(-5px);
+            border-radius: 5px;
+            color: black
+        }
+
+        /* Icon Hover Effect */
+        .nav-item a i {
+            margin-right: 8px;
+            transition: transform 0.3s;
+        }
+
+        .nav-item a:hover i {
+            transform: scale(1.1);
+        }
+
+        /* Hiding Text by Default */
+        .nav-item a span {
+            display: none;
+            position: absolute;
+            bottom: -25px;
+            font-size: 12px;
+            background-color: #625ad8;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease, bottom 0.3s ease;
+        }
+
+        /* Show Text When Hovering */
+        .nav-item a:hover span {
+            display: block;
+            opacity: 1;
+            bottom: -35px;
+        }
+
+        /* Dropdown Menu Styling */
+        .dropdown-menu {
+            background-color: #c98c9a;
+            border-radius: 5px;
+        }
+
+        .dropdown-item {
+            color: white;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .dropdown-item:hover {
+            background-color: #e5c6c3;
+            color: #fff;
+        }
+
+        /* Search Button */
+        .search-btn {
+            background-color: #4fb19d;
+            border: none;
+            border-radius: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .search-btn:hover {
+            background-color: #edce7a;
+        }
+
+        .search-btn i {
+            color: white;
+        }
+
+        /* Responsive Navbar */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 10px 20px;
+            }
+
+            .navbar-brand {
+                font-size: 20px;
+            }
+
+            .nav-item a {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 
@@ -188,12 +187,15 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown">
                                 <i class="fas fa-calendar-alt"></i><span> Jadwal</span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ route('jadwalkerja.belum') }}"><i class="fas fa-calendar-day"></i> Belum Memiliki Jadwal</a></li>
-                                <li><a class="dropdown-item" href="{{ route('jadwalkerja.sudah') }}"><i class="fas fa-calendar-check"></i> Sudah Memiliki Jadwal</a></li>
+                                <li><a class="dropdown-item" href="{{ route('jadwalkerja.belum') }}"><i
+                                            class="fas fa-calendar-day"></i> Belum Memiliki Jadwal</a></li>
+                                <li><a class="dropdown-item" href="{{ route('jadwalkerja.sudah') }}"><i
+                                            class="fas fa-calendar-check"></i> Sudah Memiliki Jadwal</a></li>
                             </ul>
                         </li>
 
@@ -226,35 +228,38 @@
                         </a>
                     </li> --}}
 
-                   <!-- Profil & Logout -->
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-        <i class="fas fa-user"></i><span> User</span>
-    </a>
-    <ul class="dropdown-menu">
-        <li>
-            <a class="dropdown-item" href="#">
-                <i class="fas fa-user-circle me-2"></i> Profil: {{ Auth::user()->nama }}
-            </a>
-        </li>
-        <li>
-            <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                <i class="fas fa-sign-out-alt me-2"></i> Logout
-            </a>
-        </li>
-    </ul>
-</li>
+                    <!-- Profil & Logout -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            <i class="fas fa-user"></i><span> User</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user-circle me-2"></i> Profil: {{ Auth::user()->nama }}
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                    <i class="fas fa-sign-out-alt me-2"></i> Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
 
-<!-- Form Logout -->
-<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-    @csrf
-</form>
+                    <!-- Form Logout -->
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
 
                 </ul>
 
                 <!-- Search Bar -->
                 <form class="d-flex" action="" method="GET">
-                    <input class="form-control me-2" type="search" name="query" placeholder="Cari..." aria-label="Search">
+                    <input class="form-control me-2" type="search" name="query" placeholder="Cari..."
+                        aria-label="Search">
                     <button class="btn search-btn" type="submit">
                         <i class="fas fa-search"></i>
                     </button>
