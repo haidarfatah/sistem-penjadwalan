@@ -31,7 +31,7 @@ Sistem ini dibuat untuk mengelola penjadwalan dan shift karyawan secara efisien.
 ## 🛠 Teknologi yang Digunakan  
 - **Backend:** Laravel 11  
 - **Database:** MySQL  
-- **Frontend:** Blade, Tailwind CSS  
+- **Frontend:** Blade, Botstrap 5
 - **Autentikasi:** Laravel Middleware 
 
 ---
